@@ -1,7 +1,7 @@
 # Twitter Accounts Fraud Detection
-This project is a tool for detecting fraudulent Twitter accounts using k-means clustering.
+This project is a tool for detecting fraudulent Twitter accounts using Decision tree.
 The goal of the project is to determine whether a given Twitter account is operated by a human or by a bot.
-To do this, the project uses k-means clustering to analyze the activity of the account and identify patterns that are indicative of bot behavior.
+To do this, the project uses Decision tree clustering to analyze the activity of the account and identify patterns that are indicative of bot behavior.
 Once the analysis is complete, the project will output a prediction as to whether the account is likely to be a human or a bot.
 This can be a useful tool for identifying and combating spam and other forms of online abuse on Twitter.
 
@@ -31,7 +31,7 @@ You can use the application to detect fraudulent Twitter accounts by following t
 
 ## Model Training
 To train the model, we first collected a dataset of Twitter accounts that have been manually labeled as either human or bot.
-This dataset was used to fit the k-means clustering model, which learned to differentiate between human and bot accounts based on patterns in the data.
+This dataset was used to fit the Decision tree clustering model, which learned to differentiate between human and bot accounts based on patterns in the data.
 
 The model was trained using a variety of features extracted from the Twitter accounts in the dataset.
 These features included the frequency and content of tweets, the number of followers and followees, and the account's interaction with other users.
