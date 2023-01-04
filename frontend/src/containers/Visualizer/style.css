@@ -1,0 +1,91 @@
+.form-container {
+  position: absolute;
+  width: 250px;
+  top: 10px;
+  left: 10px;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: rgb(0 0 0 / 10%) 3px 3px 20px 3px,
+    rgb(0 0 0 / 10%) 0px 2px 2px 0px, rgb(0 0 0 / 10%) 0px 1px 5px 0px;
+}
+
+.header {
+  display: flex;
+}
+
+.header span {
+  flex: 1;
+  font-weight: bold;
+  font-size: 14px;
+  padding-right: 20px;
+}
+
+.form-container .hide-btn {
+  width: 18px;
+  margin-block-end: 10px;
+  margin-inline-start: 3px;
+  cursor: pointer;
+}
+
+.form-container .form-wrapper {
+  overflow: hidden;
+  transition: 0.3s all ease-out;
+}
+
+.form-container .feat-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 8px;
+  margin-block-end: 5px;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+}
+
+.form-container .pre-btn {
+  margin-block-start: 10px;
+  width: 180px;
+}
+
+.form-container .decision {
+  min-height: 30px;
+  padding-top: 30px;
+}
+
+.form-container .decision i {
+  color: red;
+  font-weight: bolder;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+#tree-wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.node__root > circle {
+  fill: #a1774e;
+}
+
+.node__branch > circle {
+  fill: #2a443a;
+}
+
+.node__leaf > circle {
+  fill: #00c76d;
+}
+
+.rd3t-node:not(.node__leaf) .rd3t-label {
+  transform: translate(-15px, -15px);
+}
+
+.node__leaf .rd3t-label {
+  transform: translate(-15px, 0px);
+}
+
+.link__to-decision {
+  stroke: red !important;
+  stroke-width: 3px !important;
+}

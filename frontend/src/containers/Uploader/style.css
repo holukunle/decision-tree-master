@@ -1,0 +1,40 @@
+.info-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-container .title {
+  font-weight: bolder;
+  font-size: 58px;
+  text-align: center;
+  font-family: system-ui;
+}
+
+.info-container .sub-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  margin-block-start: 15px;
+  color: #1565c0;
+}
+
+.uploader-container {
+  flex: 3;
+}
+
+.uploader-container .wrapper {
+  width: 420px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  padding: 25px;
+  text-align: center;
+  margin-block-start: 100px;
+}
+
+.copyright {
+  padding-block-end: 10px;
+  font-size: 14px;
+}
